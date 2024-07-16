@@ -86,3 +86,12 @@ if __name__ == "__main__":
     print("Pre-order traversal:", tree.pre_order_traversal(tree.root))
     print("Post-order traversal:", tree.post_order_traversal(tree.root))
     print("Level-order traversal:", tree.level_order_traversal(tree.root))
+
+
+friends = [
+    ["Quan", ["Thao"]],
+    ["Thao", "Tung"],
+    ["Hieu", "Tai"],
+    ["Hieu", "Viet"],
+    ["Minh", "Suong"]
+]
